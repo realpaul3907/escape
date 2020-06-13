@@ -147,7 +147,7 @@ padding-bottom: 180px;
     color: white;
     text-transform: capitalize;
     cursor: pointer;
-    transition: .5s;
+    transition: .10s;
 
 }
 
@@ -157,6 +157,7 @@ padding-bottom: 180px;
 	background-color: white;
 	color: black;
 	border:none;
+	font-weight: 700;
 }
 
 /*web development start*/
@@ -535,6 +536,7 @@ padding: 5px;
 	font-size: 30px;
 	color:white;
 	padding: 5px;
+	transition: .3s;
 
 }
 
@@ -663,6 +665,7 @@ border-radius: 3px;
 	min-height: 210px;
 	border:none;
 	border-radius: 3px;
+	margin:10px 0;
 }
 
 
@@ -672,11 +675,40 @@ border-radius: 3px;
 	outline: 0;
 }
 
+
+.footer_form button{
+
+	width: 80px;
+	height: 40px;
+	background-color: transparent;
+	border:none;
+	border: 1px solid white;
+	border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color:white;
+    margin:10px 0;
+    cursor: pointer;
+    transition: .3s;
+
+
+
+}
+
+
+.footer_form button:hover{
+
+background-color: rgb(118, 144, 197);
+font-weight: 400;
+
+
+}
+
 .footer_form ::placeholder{
 
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
-font-weight: 300;
 color:#bbbbbb;
 
 }
